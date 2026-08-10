@@ -84,7 +84,7 @@ quiz-platform-frontend/
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── index.html
-├── .env.example
+├── .env
 ├── .gitignore
 ├── README.md
 └── src/
@@ -146,7 +146,7 @@ npm install
 ### Configure environment variables
 
 ```bash
-cp .env.example .env
+cp .env
 ```
 
 Then edit `.env` to point at your running backend (see below).
