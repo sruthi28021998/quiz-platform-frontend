@@ -248,7 +248,7 @@ If you change the backend's port, or deploy it somewhere else, update this value
 | Admin analytics page with charts | `screenshots/admin-analytics.png` |
 
 Once added, embed each one like this:
-```md
+
 ### Student Dashboard
 ![Student Dashboard](screenshots/student-dashboard.png)
 ![Student Login](screenshots/login.png)
@@ -261,9 +261,9 @@ Once added, embed each one like this:
 ![Student Quiz-result](screenshots/quiz-result.png)
 ![Student Attempt-history](screenshots/attempt-history.png)
 ![Student Leaderboard](screenshots/leaderboard.png)
-```
 
-```md
+
+
 ### Admin Dashboard
 ![Admin Login](screenshots/admin-login.png)
 ![Admin Dashboard](screenshots/admin-dashboard.png)
@@ -272,7 +272,7 @@ Once added, embed each one like this:
 ![Admin Quiz-form](screenshots/admin-quiz-form.png)
 ![Admin Questions](screenshots/admin-questions.png)
 ![Admin Analytics](screenshots/admin-analytics.png)
-```
+
 
 To take clean screenshots on Windows: press `Win + Shift + S` to open the Snipping Tool, select the browser window area, then paste (`Ctrl + V`) into Paint and save as `.png` into your repo's `screenshots/` folder.
 
