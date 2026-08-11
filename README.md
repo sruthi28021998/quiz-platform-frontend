@@ -224,7 +224,7 @@ If you change the backend's port, or deploy it somewhere else, update this value
 
 ## Screenshots
 
-> I don't have access to your running app, so no real screenshots exist yet — these are placeholders for you to fill in. Take each screenshot from your own browser, save it into a `screenshots/` folder in this repo root using the filename listed, then it will render automatically in this README on GitHub.
+
 
 | Screenshot | File to add |
 |---|---|
@@ -251,6 +251,27 @@ Once added, embed each one like this:
 ```md
 ### Student Dashboard
 ![Student Dashboard](screenshots/student-dashboard.png)
+![Student Login](screenshots/login.png)
+![Student Register](screenshots/register.png)
+![Student Quiz-list](screenshots/quiz-list.png)
+![Student Quiz-details](screenshots/quiz-details.png)
+![Student Quiz-attempt-single](screenshots/quiz-attempt-single.png)
+![Student Quiz-attempt-multiple](screenshots/quiz-attempt-multiple.png)
+![Student Quiz-attempt-code](screenshots/quiz-attempt-code.png)
+![Student Quiz-result](screenshots/quiz-result.png)
+![Student Attempt-history](screenshots/attempt-history.png)
+![Student Leaderboard](screenshots/leaderboard.png)
+```
+
+```md
+### Admin Dashboard
+![Admin Login](screenshots/admin-login.png)
+![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Students](screenshots/admin-students.png)
+![Admin Quizzes](screenshots/admin-quizzes.png)
+![Admin Quiz-form](screenshots/admin-quiz-form.png)
+![Admin Questions](screenshots/admin-questions.png)
+![Admin Analytics](screenshots/admin-analytics.png)
 ```
 
 To take clean screenshots on Windows: press `Win + Shift + S` to open the Snipping Tool, select the browser window area, then paste (`Ctrl + V`) into Paint and save as `.png` into your repo's `screenshots/` folder.
