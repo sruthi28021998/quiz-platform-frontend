@@ -76,8 +76,6 @@ A React (Vite + Tailwind CSS) client for the Quiz Management & Online Assessment
 ---
 
 ## Project Structure
-
-```
 quiz-platform-frontend/
 ├── package.json
 ├── vite.config.js
@@ -88,44 +86,43 @@ quiz-platform-frontend/
 ├── .gitignore
 ├── README.md
 └── src/
-    ├── main.jsx                # App entry point
-    ├── App.jsx                 # Route definitions
-    ├── index.css                # Tailwind directives + shared component classes
-    ├── api/
-    │   └── client.js            # Axios instance with auth token interceptor
-    ├── context/
-    │   └── AuthContext.jsx      # Session state, login/logout/register
-    ├── components/
-    │   ├── ProtectedRoute.jsx    # Role-based route guarding
-    │   ├── StudentLayout.jsx
-    │   ├── StudentNavbar.jsx
-    │   └── AdminLayout.jsx
-    └── pages/
-        ├── auth/
-        │   ├── Login.jsx
-        │   ├── Register.jsx
-        │   ├── ForgotPassword.jsx
-        │   ├── ResetPassword.jsx
-        │   └── AdminLogin.jsx
-        ├── student/
-        │   ├── StudentDashboard.jsx
-        │   ├── QuizList.jsx
-        │   ├── QuizDetails.jsx
-        │   ├── QuizAttempt.jsx
-        │   ├── QuizResult.jsx
-        │   ├── AttemptHistory.jsx
-        │   └── Leaderboard.jsx
-        └── admin/
-            ├── AdminDashboard.jsx
-            ├── AdminStudents.jsx
-            ├── AdminStudentProfile.jsx
-            ├── AdminCategories.jsx
-            ├── AdminQuizzes.jsx
-            ├── AdminQuizForm.jsx
-            ├── AdminQuestions.jsx
-            ├── AdminAttempts.jsx
-            └── AdminAnalytics.jsx
-```
+├── main.jsx # App entry point
+├── App.jsx # Route definitions
+├── index.css # Tailwind directives + shared component classes
+├── api/
+│ └── client.js # Axios instance with auth token interceptor
+├── context/
+│ └── AuthContext.jsx # Session state, login/logout/register
+├── components/
+│ ├── ProtectedRoute.jsx # Role-based route guarding
+│ ├── StudentLayout.jsx
+│ ├── StudentNavbar.jsx
+│ └── AdminLayout.jsx
+└── pages/
+├── auth/
+│ ├── Login.jsx
+│ ├── Register.jsx
+│ ├── ForgotPassword.jsx
+│ ├── ResetPassword.jsx
+│ └── AdminLogin.jsx
+├── student/
+│ ├── StudentDashboard.jsx
+│ ├── QuizList.jsx
+│ ├── QuizDetails.jsx
+│ ├── QuizAttempt.jsx
+│ ├── QuizResult.jsx
+│ ├── AttemptHistory.jsx
+│ └── Leaderboard.jsx
+└── admin/
+├── AdminDashboard.jsx
+├── AdminStudents.jsx
+├── AdminStudentProfile.jsx
+├── AdminCategories.jsx
+├── AdminQuizzes.jsx
+├── AdminQuizForm.jsx
+├── AdminQuestions.jsx
+├── AdminAttempts.jsx
+└── AdminAnalytics.jsx
 
 ---
 
@@ -145,11 +142,11 @@ npm install
 
 ### Configure environment variables
 
-```bash
-cp .env
-```
+This project uses a `.env` file (already included in the repo) with your API URL configuration. Open `.env` in the project root and confirm/edit this value to point at your running backend:
 
-Then edit `.env` to point at your running backend (see below).
+```env
+VITE_API_URL=http://localhost:5000/api
+```
 
 ### Run the dev server
 
@@ -224,71 +221,42 @@ If you change the backend's port, or deploy it somewhere else, update this value
 
 ## Screenshots
 
+> Add each screenshot to the `screenshots/` folder in this repo using the filenames below, then it will render automatically here on GitHub.
 
+### Student Pages
 
-| Screenshot | File to add |
-|---|---|
-| Student login page | `screenshots/login.png` |
-| Student registration page | `screenshots/register.png` |
-| Admin login page | `screenshots/admin-login.png` |
-| Student dashboard with score trend chart | `screenshots/student-dashboard.png` |
-| Browse quizzes page (with filters) | `screenshots/quiz-list.png` |
-| Quiz details page showing negative marking notice | `screenshots/quiz-details.png` |
-| Quiz attempt page — single-answer question | `screenshots/quiz-attempt-single.png` |
-| Quiz attempt page — multi-select question | `screenshots/quiz-attempt-multiple.png` |
-| Quiz attempt page — code question | `screenshots/quiz-attempt-code.png` |
-| Result page with answer review | `screenshots/quiz-result.png` |
-| Attempt history page | `screenshots/attempt-history.png` |
-| Leaderboard page | `screenshots/leaderboard.png` |
-| Admin dashboard | `screenshots/admin-dashboard.png` |
-| Admin student management page | `screenshots/admin-students.png` |
-| Admin quiz management page | `screenshots/admin-quizzes.png` |
-| Admin quiz create/edit form | `screenshots/admin-quiz-form.png` |
-| Admin question editor (single vs multiple answer type) | `screenshots/admin-questions.png` |
-| Admin analytics page with charts | `screenshots/admin-analytics.png` |
+![Student Login](screenshots/login.png)
+![Student Register](screenshots/register.png)
+![Student Dashboard](screenshots/student-dashboard.png)
+![Quiz List](screenshots/quiz-list.png)
+![Quiz Details](screenshots/quiz-details.png)
+![Quiz Attempt - Single Answer](screenshots/quiz-attempt-single.png)
+![Quiz Attempt - Multiple Answer](screenshots/quiz-attempt-multiple.png)
+![Quiz Attempt - Code Question](screenshots/quiz-attempt-code.png)
+![Quiz Result](screenshots/quiz-result.png)
+![Attempt History](screenshots/attempt-history.png)
+![Leaderboard](screenshots/leaderboard.png)
 
-Once added, embed each one like this:
+### Admin Pages
 
-```md
-### Student Dashboard
-[Student Dashboard](screenshots/student-dashboard.png)
-[Student Login](screenshots/login.png)
-[Student Register](screenshots/register.png)
-[Student Quiz-list](screenshots/quiz-list.png)
-[Student Quiz-details](screenshots/quiz-details.png)
-[Student Quiz-attempt-single](screenshots/quiz-attempt-single.png)
-[Student Quiz-attempt-multiple](screenshots/quiz-attempt-multiple.png)
-[Student Quiz-attempt-code](screenshots/quiz-attempt-code.png)
-[Student Quiz-result](screenshots/quiz-result.png)
-[Student Attempt-history](screenshots/attempt-history.png)
-[Student Leaderboard](screenshots/leaderboard.png)
-```
+![Admin Login](screenshots/admin-login.png)
+![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Students](screenshots/admin-students.png)
+![Admin Quizzes](screenshots/admin-quizzes.png)
+![Admin Quiz Form](screenshots/admin-quiz-form.png)
+![Admin Questions](screenshots/admin-questions.png)
+![Admin Analytics](screenshots/admin-analytics.png)
 
-
-```md
-### Admin Dashboard
-[Admin Login](screenshots/admin-login.png)
-[Admin Dashboard](screenshots/admin-dashboard.png)
-[Admin Students](screenshots/admin-students.png)
-[Admin Quizzes](screenshots/admin-quizzes.png)
-[Admin Quiz-form](screenshots/admin-quiz-form.png)
-[Admin Questions](screenshots/admin-questions.png)
-[Admin Analytics](screenshots/admin-analytics.png)
-```
-
-To take clean screenshots on Windows: press `Win + Shift + S` to open the Snipping Tool, select the browser window area, then paste (`Ctrl + V`) into Paint and save as `.png` into your repo's `screenshots/` folder.
+To take clean screenshots on Windows: press `Win + Shift + S` to open the Snipping Tool, select the browser window area, then paste (`Ctrl + V`) into Paint and save as `.png` into your repo's `screenshots/` folder using the exact filenames above.
 
 ---
 
 ## Default Login
 
 Once the backend has been seeded (`npm run seed` in the backend repo):
-
-```
 Admin login (at /admin/login):
-  Email: admin@quizplatform.com
-  Password: Admin@12345
-```
+Email: admin@quizplatform.com
+Password: Admin@12345
 
 Students register their own account at `/register` — no pre-made student account exists.
 
