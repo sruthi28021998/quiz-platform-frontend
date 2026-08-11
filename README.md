@@ -262,9 +262,10 @@ Once added, embed each one like this:
 [Student Quiz-result](screenshots/quiz-result.png)
 [Student Attempt-history](screenshots/attempt-history.png)
 [Student Leaderboard](screenshots/leaderboard.png)
+```
 
 
-
+```md
 ### Admin Dashboard
 [Admin Login](screenshots/admin-login.png)
 [Admin Dashboard](screenshots/admin-dashboard.png)
