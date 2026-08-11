@@ -225,7 +225,7 @@ If you change the backend's port, or deploy it somewhere else, update this value
 
 ### Student Pages
 
-[Student Login](screenshots/login.png)
+![Student Login](screenshots/login.png)
 ![Student Register](screenshots/register.png)
 ![Student Dashboard](screenshots/student-dashboard.png)
 ![Quiz List](screenshots/quiz-list.png)
