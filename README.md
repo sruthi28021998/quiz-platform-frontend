@@ -225,27 +225,43 @@ If you change the backend's port, or deploy it somewhere else, update this value
 
 ### Student Pages
 
-![Student Login](screenshots/login.png)
-![Student Register](screenshots/register.png)
-![Student Dashboard](screenshots/student-dashboard.png)
-![Quiz List](screenshots/quiz-list.png)
-![Quiz Details](screenshots/quiz-details.png)
-![Quiz Attempt - Single Answer](screenshots/quiz-attempt-single.png)
-![Quiz Attempt - Multiple Answer](screenshots/quiz-attempt-multiple.png)
-![Quiz Attempt - Code Question](screenshots/quiz-attempt-code.png)
-![Quiz Result](screenshots/quiz-result.png)
-![Attempt History](screenshots/attempt-history.png)
-![Leaderboard](screenshots/leaderboard.png)
+-[Student Login](screenshots/login.png)
+
+-[Student Register](screenshots/register.png)
+
+-[Student Dashboard](screenshots/student-dashboard.png)
+
+-[Quiz List](screenshots/quiz-list.png)
+
+-[Quiz Details](screenshots/quiz-details.png)
+
+-[Quiz Attempt - Single Answer](screenshots/quiz-attempt-single.png)
+
+-[Quiz Attempt - Multiple Answer](screenshots/quiz-attempt-multiple.png)
+
+-[Quiz Attempt - Code Question](screenshots/quiz-attempt-code.png)
+
+-[Quiz Result](screenshots/quiz-result.png)
+
+-[Attempt History](screenshots/attempt-history.png)
+
+-[Leaderboard](screenshots/leaderboard.png)
 
 ### Admin Pages
 
-![Admin Login](screenshots/admin-login.png)
-![Admin Dashboard](screenshots/admin-dashboard.png)
-![Admin Students](screenshots/admin-students.png)
-![Admin Quizzes](screenshots/admin-quizzes.png)
-![Admin Quiz Form](screenshots/admin-quiz-form.png)
-![Admin Questions](screenshots/admin-questions.png)
-![Admin Analytics](screenshots/admin-analytics.png)
+-[Admin Login](screenshots/admin-login.png)
+
+-[Admin Dashboard](screenshots/admin-dashboard.png)
+
+-[Admin Students](screenshots/admin-students.png)
+
+-[Admin Quizzes](screenshots/admin-quizzes.png)
+
+-[Admin Quiz Form](screenshots/admin-quiz-form.png)
+
+-[Admin Questions](screenshots/admin-questions.png)
+
+-[Admin Analytics](screenshots/admin-analytics.png)
 
 To take clean screenshots on Windows: press `Win + Shift + S` to open the Snipping Tool, select the browser window area, then paste (`Ctrl + V`) into Paint and save as `.png` into your repo's `screenshots/` folder using the exact filenames above.
 
